@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table width="100%" align = "center" bgcolor = "210F37">  
+        <tr>
+            <td>
+                <font color = "white">   <h1><center>Formulário Extensão</center></h1> </font>
+            </td>    
+        </tr>
+        <tr>
+            <td>
+                <font color = "white">     <a><center>A extensão universitária transcende a mera transferência de conhecimento acadêmico para a comunidade; ela se configura como um espaço dinâmico de interação e transformação mútua. Ao estabelecer um diálogo contínuo entre a universidade e a sociedade, a extensão promove a construção de saberes compartilhados, onde o conhecimento científico se encontra com o saber popular. </center></a> </font> <br>   
+            </td>
+        </tr>
+        <br><br>
+    </table>
+        <form>
+            <br>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                Nome: <input type="email"><br><br>
+                Endereço: <input type="email"><br><br>
+                Cidade: <input type="email"><br><br>
+                Sexo:
+                <select>
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                    <option>Prefiro não dizer</option>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Informações Acadêmicas</legend>
+                Curso <br>
+                <input type="radio">
+                <label><a href="https://www.educamaisbrasil.com.br/cursos-e-faculdades/direito">Direito</a></label>
+                <input type="radio">
+                <label><a href="https://www.educamaisbrasil.com.br/cursos-e-faculdades/administracao">Administração</a></label>
+                <input type="radio">
+                <label><a href="https://www.educamaisbrasil.com.br/cursos-e-faculdades/medicina">Medicina</a></label>
+                <input type="radio">
+                <label><a href="https://www.educamaisbrasil.com.br/cursos-e-faculdades/ciencias-da-computacao">Ciências da Computação</a></label>
+                <input type="radio">
+                <label><a href="https://www.educamaisbrasil.com.br/cursos-e-faculdades/enfermagem">Enfermagem</a></label>
+                <br><br>
+                Tipo de extensão <br>
+                <input type="checkbox">
+                <label>Curso</label>
+                <input type="checkbox">
+                <label>Consultoria</label>
+                <input type="checkbox">
+                <label>Projeto</label>
+                <input type="checkbox">
+                <label>Evento</label>
+                <input type="checkbox">
+                <label>Atividade de voluntariado</label><br><br>
+                Mini-Currículo:
+                <textarea rows="5"></textarea>
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Limpar">
+        </form>
+    <br>
+    <center>
+    <iframe src="https://www.youtube.com/embed/dJWI41fH3bQ?feature=shared"></iframe>
+    </center>
+</body>
+</html>
